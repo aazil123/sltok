@@ -14,7 +14,7 @@ jobs:
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/aazil123/sltok/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/aazil123/sltok/main/wallpaper.png -OutFile wallpaper.png
-        Invoke-WebRequest https://raw.githubusercontent.comaazil123/sltok//main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.comaazil123/sltok/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/aazil123/sltok/main/loop.bat -OutFile loop.bat
     - name: Download Launcher
       run: |
